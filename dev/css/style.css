@@ -21,3 +21,14 @@ body{
 .slider img{
 	width: 100%;
 }
+
+.slider-thumb-conteiner{
+	width: 15%;
+	position: absolute;
+	bottom: -25px;
+	left: 25px;
+}
+
+.slider-thumb-conteiner img{
+	max-width: 100%;
+}
