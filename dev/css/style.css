@@ -7,6 +7,16 @@ body{
 	height: 100%;
 }
 
+h1{
+	padding: 100px 50px 50px 50px; 
+	background: #353F49;
+	color: #CFCFCF;
+	font-family: 'Roboto';
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 .sliders-conteiner{
 	margin: 100px auto;
 	width: 70%;
@@ -32,4 +42,30 @@ body{
 
 .slider-thumb-conteiner img{
 	max-width: 100%;
+}
+
+.slider-add{
+	width: 100%;
+}
+
+.slider-add img{
+	width: 100%;
+}
+
+.add-slide{
+	display: flex;
+	justify-content: space-between;
+}
+
+.add-slide .add-thumb{
+	width: 150px;
+	height: 150px;
+	margin-bottom: 30px;
+}
+
+.add-slide .add-thumb img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	cursor: pointer;
 }
