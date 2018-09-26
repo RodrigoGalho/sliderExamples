@@ -20,5 +20,9 @@ $(document).ready( () => {
 	$('.add-thumb').click( function(){
 		let img = $(this).data("slide");
 		$('.slider-add').slick('slickAdd','<div><img src="dev/img/' + img + '" />');
+
+		let numberSlides = $(".slider-add .slick-slide").size();
+		console.log(Math.floor(numberSlides/2));
+		$('.slider-add').slick('slickGoTo', numberSlides-1 , true);
 	});
 } );

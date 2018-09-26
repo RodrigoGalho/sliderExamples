@@ -11,7 +11,8 @@ h1{
 	padding: 100px 50px 50px 50px; 
 	background: #353F49;
 	color: #CFCFCF;
-	font-family: 'Roboto';
+	font-family: 'arial';
+	font-weight: normal;
 	font-size: 40px;
 	text-transform: uppercase;
 	text-align: center;
