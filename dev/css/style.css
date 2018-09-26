@@ -21,51 +21,41 @@ h1{
 	margin: 100px auto;
 	width: 70%;
 	max-width: 1366px;
-	position: relative;
-}
+	position: relative;}
 
-.slider{
-	width: 100%;
-}
+	.slider{
+		width: 100%;}
 
-.slider img{
-	width: 100%;
-}
+	.slider img{
+		width: 100%;}
 
-.slider-thumb-conteiner{
-	width: 15%;
-	position: absolute;
-	bottom: -25px;
-	left: 25px;
-	outline: 5px solid #353F49;
-}
+	.slider-thumb-conteiner{
+		width: 15%;
+		position: absolute;
+		bottom: -25px;
+		left: 25px;
+		outline: 5px solid #353F49;}
 
-.slider-thumb-conteiner img{
-	max-width: 100%;
-}
+		.slider-thumb-conteiner img{
+			max-width: 100%;}
 
 .slider-add{
-	width: 100%;
-}
+	width: 100%;}
 
-.slider-add img{
-	width: 100%;
-}
+	.slider-add img{
+		width: 100%;}
 
 .add-slide{
 	display: flex;
-	justify-content: space-between;
-}
+	justify-content: space-between;}
 
-.add-slide .add-thumb{
-	width: 150px;
-	height: 150px;
-	margin-bottom: 30px;
-}
+	.add-slide .add-thumb{
+		width: 150px;
+		height: 150px;
+		margin-bottom: 30px;}
 
-.add-slide .add-thumb img{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	cursor: pointer;
-}
+		.add-slide .add-thumb img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			cursor: pointer;}
