@@ -27,6 +27,7 @@ body{
 	position: absolute;
 	bottom: -25px;
 	left: 25px;
+	outline: 5px solid #353F49;
 }
 
 .slider-thumb-conteiner img{

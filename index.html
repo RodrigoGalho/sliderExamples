@@ -35,12 +35,14 @@
 	<script>
 		$(document).ready(function(){
 			$('.slider').slick({
-				dots: true,
-				arrows: true
+				dots: false,
+				arrows: true,
+				asNavFor: ".slider-thumb"
 			});
 
 			$('.slider-thumb').slick({
-				arrows: false
+				arrows: false,
+				fade: true
 			});
 		});
 	</script>
