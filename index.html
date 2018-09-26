@@ -5,19 +5,29 @@
 	<title>Slick Examples</title>
 	<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="slick.css"/>
-	<script type="text/javascript" src="slick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="dev/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="dev/slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="dev/css/style.css"/>
+	<script type="text/javascript" src="dev/slick/slick.min.js"></script>
 </head>
 <body>
-	<div class="slider">
-	 	<div>your content 1</div>
-	  	<div>your content 2</div>
-	  	<div>your content 3</div>
+	<div class="sliders-conteiner">
+		<div class="slider">
+		 	<div><img src="dev/img/slide-alibi.jpg" alt="" /></div>
+		 	<div><img src="dev/img/slide-maestro.jpg" alt="" /></div>
+		 	<div><img src="dev/img/slide-zofia.jpg" alt="" /></div>
+		 	<div><img src="dev/img/slide-ela.jpg" alt="" /></div>
+		 	<div><img src="dev/img/slide-caveira.jpg" alt="" /></div>
+		 	<div><img src="dev/img/slide-capitao.jpg" alt="" /></div>
+		</div>
 	</div>
 
 	<script>
 		$(document).ready(function(){
-			$('.slider').slick();
+			$('.slider').slick({
+				dots: true,
+				arrows: true
+			});
 		});
 	</script>
 </body>

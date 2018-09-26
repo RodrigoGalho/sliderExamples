@@ -1,0 +1,23 @@
+html{
+	height: 100%;
+}
+
+body{
+	background: -webkit-radial-gradient(#353F49 0, #2C353E 100%);
+	height: 100%;
+}
+
+.sliders-conteiner{
+	margin: 100px auto;
+	width: 70%;
+	max-width: 1366px;
+	position: relative;
+}
+
+.slider{
+	width: 100%;
+}
+
+.slider img{
+	width: 100%;
+}
